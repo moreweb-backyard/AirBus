@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="3dp"
+        android:text="1.Button remark:"
+        android:layout_alignBottom="@+id/settingniobutton_remark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="3dp"
+        android:text="2.IR Switch No:"
+        android:layout_below="@+id/textView109"
+        android:layout_alignRight="@+id/textView109"
+        android:layout_alignBottom="@+id/settingniobutton_num"
+        android:layout_alignParentLeft="true"
+        android:layout_alignEnd="@+id/textView109"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:id="@+id/settingniobutton_remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView109"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView109"
+        android:layout_alignParentEnd="true"/>
+    <EditText
+        android:id="@+id/settingniobutton_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/settingniobutton_remark"
+        android:layout_alignLeft="@+id/settingniobutton_remark"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:layout_alignStart="@+id/settingniobutton_remark"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

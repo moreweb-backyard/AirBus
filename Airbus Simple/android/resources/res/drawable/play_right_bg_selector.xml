@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap
+            android:gravity="top"
+            android:src="@drawable/play_right_2"
+            android:tileMode="disabled"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="top"
+            android:src="@drawable/play_right"
+            android:tileMode="disabled"/>
+    </item>
+</selector>

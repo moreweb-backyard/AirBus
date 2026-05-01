@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        android:id="@+id/tvradioname"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Medium Text"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="13dp"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:id="@+id/radiovalue"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Medium Text"/>
+    </LinearLayout>
+</LinearLayout>

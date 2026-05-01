@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/energylog_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start Date"
+        android:layout_below="@+id/energylog_toolbar"
+        android:layout_alignLeft="@+id/energylog_toolbar"
+        android:layout_alignStart="@+id/energylog_toolbar"/>
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="end date"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignEnd="@+id/button7"/>
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="see charts"
+        android:layout_alignLeft="@+id/button47"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button47"
+        android:layout_alignParentEnd="true"/>
+    <Space
+        android:id="@+id/space16"
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="source"
+        android:layout_toRightOf="@+id/space16"
+        android:layout_below="@+id/energylog_toolbar"/>
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="charts"
+        android:layout_below="@+id/button49"
+        android:layout_alignLeft="@+id/button49"
+        android:layout_alignStart="@+id/button49"/>
+</RelativeLayout>

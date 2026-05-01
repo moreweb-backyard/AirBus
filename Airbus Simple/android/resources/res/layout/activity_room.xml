@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/roomacbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/room_bg"
+        android:scaleType="centerCrop"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/room_toolbar"
+        android:background="#5f000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        style="@style/MenuStyle"/>
+    <com.shima.smartbushome.assist.DraggableGridViewType2
+        android:id="@+id/draggable_grid_view_pager"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room_toolbar"/>
+</RelativeLayout>

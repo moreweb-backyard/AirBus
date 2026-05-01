@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="brvah_load_end">No more data</string>
+    <string name="brvah_load_failed">load more failed</string>
+    <string name="brvah_loading">Loading...</string>
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_day">D</string>
+    <string name="pickerview_hours">h</string>
+    <string name="pickerview_minutes">m</string>
+    <string name="pickerview_month">M</string>
+    <string name="pickerview_seconds">s</string>
+    <string name="pickerview_submit">Sure</string>
+    <string name="pickerview_year">Y</string>
+</resources>

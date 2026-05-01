@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/half_transparent_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/tab_bgcolor"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_once"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Only One Time"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="EveryDay"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/mon"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/tue"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/wed"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/thu"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/fri"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/sat"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:id="@+id/tv_drugcycle_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/sun"
+            android:drawableRight="@null"/>
+        <TextView style="@style/horizontal_line_style"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black_33"
+            android:gravity="center"
+            android:id="@+id/tv_drugcycle_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/cycle_sure"
+            android:drawableRight="@null"/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            style="@style/horizontal_line_style"/>
+    </LinearLayout>
+</RelativeLayout>

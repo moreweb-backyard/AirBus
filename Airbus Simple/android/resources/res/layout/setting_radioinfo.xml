@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:id="@+id/tvradioname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="channel name:"
+        android:layout_alignBottom="@+id/etradioname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/etradioname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:layout_toRightOf="@+id/tvradioname"
+        android:layout_alignParentRight="true"
+        android:inputType="text"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:id="@+id/tvradiovalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="channel value:"
+        android:layout_toLeftOf="@+id/etradiovalue"
+        android:layout_below="@+id/tvradioname"
+        android:layout_alignBottom="@+id/etradiovalue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/etradiovalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvradioname"
+        android:layout_below="@+id/tvradioname"
+        android:layout_alignRight="@+id/etradioname"
+        android:layout_alignEnd="@+id/etradioname"/>
+</RelativeLayout>
